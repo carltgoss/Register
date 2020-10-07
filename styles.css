@@ -16,38 +16,7 @@
     border-color: black;
     border-width: 20px;
     border-radius: 40px;
-    background-color: lightgray;
+    background-color: rgb(73, 73, 73);
+    height: 200px;
 }
 
-.someClass2{
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    border-radius: 15px;
-    background-color: lightgray;
-    width: 33%;
-    text-align: center;
-   
-}
-
-.someClass3{
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    border-radius: 15px;
-    background-color: lightgray;
-    width: 33%;
-    text-align: center;
-     
-}
-
-.someClass4{
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    border-radius: 15px;
-    background-color: lightgray;
-    width: 33%;
-    text-align: center;
-    
-}

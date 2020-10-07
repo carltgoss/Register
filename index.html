@@ -5,6 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
+
+    <style>
+        #left {
+            float: left;
+            background-color: gray;
+            width: 33%;
+            border: solid; 
+            border-radius: 15px;
+            text-align: center;
+        }
+        #middle{
+            float: left;
+            background-color: gray;
+            width: 33%;
+            border: solid;
+            border-radius: 15px;
+            text-align: center;
+        }
+        #right{
+            float: left;
+            background-color: gray;
+            width: 33%;
+            border: solid;
+            border-radius: 15px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
@@ -12,7 +39,7 @@
         
         <h1>Two Truths and a Lie</h1>
 
-       <div class="someClass2" style= float:left; 33%;>
+       <div id="left">
 
         <h3>Brickyard 400</h3>
 
@@ -20,7 +47,7 @@
 
        </div>
 
-       <div class="someClass3" style= float:left; 33%;>
+       <div id="middle">
 
         <h3>Skydiving</h3>
 
@@ -28,13 +55,14 @@
 
        </div>
 
-       <div class="someClass4" style= float:right; 33%;>
+       <div id="right">
+           <h3>Peyton Manning</h3>
 
-        <h3>Peyton Manning</h3>
-
-            <p>I met Peyton Manning when he was a Colt but it was at a Pacer game</p>
-
-       </div>
+            <p>I met Peyton Manning when he was a Colt but it was at a Pacer game.</p>
+       
+        </div>
+    
+       
        
     </div>
     
