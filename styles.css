@@ -1,22 +1,24 @@
-.someClass h1{
-    color: rgb(86, 233, 73);
+body{
+    background-color: rgb(124, 173, 218);
+}
+
+.form{
+    width: 20%;
+    display: block;
     text-align: center;
+    border: solid;
+    background-color: white;
+    position: fixed;
+    left: 40%;
 }
 
-.someClass h3{
-    color: blue;
+.button{
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 75%;
 }
 
-.someClass p{
-    color: red;
+input{
+    width: 75%;
 }
-
-.someClass{
-    border-style: solid;
-    border-color: black;
-    border-width: 20px;
-    border-radius: 40px;
-    background-color: rgb(73, 73, 73);
-    height: 200px;
-}
-
